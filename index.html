@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gerador de QR Code</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <script src="script.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="color-mode.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+<body>
+  <div id="header-color">
+    <a href="" id="color-mode-btn"><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1.5em" width="1.5em"><path fill="currentColor" d="M24 42q-7.5 0-12.75-5.25T6 24q0-6.75 3.975-11.45Q13.95 7.85 20.4 6.5q2.05-.4 2.8.7t-.05 3q-.45 1.15-.7 2.35-.25 1.2-.25 2.45 0 4.5 3.15 7.65Q28.5 25.8 33 25.8q1.25 0 2.425-.225 1.175-.225 2.275-.625 2.15-.8 3.2.075 1.05.875.55 2.975-1.35 6.05-6.05 10.025Q30.7 42 24 42Z"/></svg></a>
+  </div>
+  <div class="container">
+    <header id="qr-header">
+      <h1>Gerador de QR Code</h1>
+      <p>Insira uma URL ou texto para criar um QR Code.</p>
+    </header>
+    <div id="qr-form">
+      <div id="qr-input-container">
+        <label for="qr-input">Sua URL ou texto</label>
+        <input type="text" name="qr-input" id="qr-input" placeholder=""/>
+      </div>
+      <button id="qr-activate">Gerar QR Code</button>
+    </div>
+    <div id="qr-code">
+      <img src="" alt="QR Code"/>
+      <a href="" download="">Baixar imagem</a>
+    </div>
+  </div>
+</body>
+</html>
