@@ -15,29 +15,6 @@ body {
   background-color: #34b6db;
 }
 
-#header-color {
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4.3rem;
-  width: 100vw;
-  background: #138eb1;
-  box-shadow: 2px 0px 2px rgba(0,0,0,0.2);
-}
-
-#color-mode-btn {
-  position: absolute;
-  top: -9px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px;
-  color: white;
-  font-size: 2.5rem;
-  opacity: 1;
-  
-}
-
 .container {
   background-color: #FFF;
   width: 80vw;
@@ -185,38 +162,4 @@ body {
 
 .container.active #qr-code {
   opacity: 1;
-}
-
-/* Dark mode */
-
-body.black {
-  background: #0b2f39;
-}
-
-body.black #header-color {
-  background: #33555e;
-}
-
-body.black .container {
-  background: #1d1d1d;
-  color: white;
-}
-
-body.black #qr-header p {
-  color: #e5e5e5;
-}
-
-body.black #qr-input {
-  background: #1d1d1d;
-  border: 1.5px solid #e5e5e5;
-  color: white;
-}
-
-body.black #qr-form label {
-  background: #1d1d1d;
-  color: white;
-}
-
-.transform-color {
-  opacity: .5;
 }
